@@ -1,27 +1,64 @@
-# Memoflow
+# MemoFlow
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
+A sleek and intuitive note-taking web app designed for efficient organization and accessibility. MemoFlow allows users to create, manage, and categorize notes seamlessly while maintaining a visually appealing design.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **CRUD Operations**: Create, read, update, and delete notes.
+- **Archiving**: Archive notes for future reference.
+- **Note Organization**:
+  - View all notes.
+  - View archived notes.
+  - Filter notes by specific tags.
+  - Search notes by title, tag, and content.
+- **Customization**:
+  - Choose from different color themes.
+  - Select a preferred font theme.
+- **Accessibility**:
+  - Full keyboard navigation support.
+  - Form validation for required fields.
+- **Responsive Design**:
+  - Optimal layout adjustments for various screen sizes.
+  - Interactive hover and focus states.
 
-## Code scaffolding
+## Installation
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/memoflow.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd memoflow
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Run the development server:
+   ```sh
+   ng serve
+   ```
+5. Open your browser and visit `http://localhost:4200`.
 
-## Build
+## Tech Stack
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Frontend**: Angular
+- **State Management**: Services
+- **Database**: LocalStorage
 
-## Running unit tests
+## Usage
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Add new notes and categorize them with tags.
+- Archive and restore notes as needed.
+- Search and filter notes for quick access.
+- Customize appearance with themes and fonts.
+- Navigate seamlessly using keyboard shortcuts.
 
-## Running end-to-end tests
+## License
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+This project is licensed under the MIT License.
 
-## Further help
+## Contact
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+For questions or feedback, feel free to reach out at [nicolasgp.ec@gmail.com](mailto:nicolasgp.ec@gmail.com) or connect on [Linkedin](https://www.linkedin.com/in/nicolasgoncalvespereira/).

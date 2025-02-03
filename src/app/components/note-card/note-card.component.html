@@ -1,0 +1,31 @@
+<div class="note-card">
+	<div class="card-header">
+		<h3 class="title">{{note.title| titlecase}}</h3>
+		<div class="button-group">
+			<button class="btn" title="View">
+				<span class="material-icons">visibility</span>
+			</button>
+			<button class="btn" title="Archive">
+				<span class="material-icons">archive</span>
+			</button>
+			<button class="btn" title="Edit">
+				<span class="material-icons">edit_document</span>
+			</button>
+			<button class="btn" title="Delete" (click)="deleteNote()">
+				<span class="material-icons">delete_forever</span>
+			</button>
+		</div>
+	</div>
+
+	<div class="card-content">
+		<p class="content-preview">{{ note.content| slice:0:30 }}...</p>
+	</div>
+
+	<div class="card-footer">
+		<div class="tags">
+			<span class="tag" *ngFor="let tag of note.tags">
+				#{{ tag }}
+			</span>
+		</div>
+	</div>
+</div>

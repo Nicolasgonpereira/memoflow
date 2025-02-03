@@ -1,0 +1,7 @@
+
+<app-searchbar />
+<app-tagsfilter />
+<div class="notesContainer">
+	<app-note-card *ngFor="let note of currentNotes" [note]="note"/>
+</div>
+

@@ -1,0 +1,6 @@
+.notesContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}

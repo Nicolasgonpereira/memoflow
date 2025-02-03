@@ -1,0 +1,46 @@
+:host {
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebar {
+	flex: 1;
+	padding: 12px;
+	width: 140px;
+	background-color: #f0f0f0;
+}
+
+.buttonsContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 12px;
+}
+
+.newNoteButton {
+	display: flex;
+	align-items: center;
+	padding: 8px;
+	border-radius: 8px;
+	border: none;
+	background-color: #2563EB;
+	color: #f0f0f0;
+	&:hover {
+		background-color: #1d4ed8;
+	}
+}
+
+.outlineButton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 8px;
+	border-radius: 8px;
+	border: none;
+	background-color: transparent;
+	color: #000000;
+	&:hover {
+		background-color: #e0e0e0;
+	}
+}
